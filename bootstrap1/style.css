@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+  }
+.header{
+    background-image: url(bg2.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+.navbar ul li a{
+    color: #fff;
+}
+.navbar ul li a:hover{
+    color: green;
+    border-bottom: 1px solid green;
+    transition: all 0.5s ease-out;
+}
+
+
+#aciklama ul li{
+    list-style-type: none;
+    font-size: 20px;
+}
+#aciklama a:hover{
+    color: yellow;
+
+}
+.card-img {
+    width: auto;
+    min-height: auto;
+    max-height: 500px;
+    filter: grayscale(80%);
+  }
+  .card-img:hover {
+    filter: grayscale(0%);
+  }
+#hakkimizda{
+    background-image: url(bg2.jpg);
+    background-size: cover;
+}
